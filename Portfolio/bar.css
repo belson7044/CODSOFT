@@ -1,0 +1,45 @@
+
+.skillcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 250px;
+}
+
+.skill-bar-container {
+    margin-top: 2%;
+    width: 500px;
+}
+
+.skill-bar {
+    margin: 15px 0;
+    width: 100%;
+}
+
+.skill-bar span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 25px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 25px;
+}
+
+.html { background-color: #e34c26; width: 80%; }
+.css { background-color: #264de4; width: 70%; }
+.jquery { background-color: #0769ad; width: 50%; }
+.php { background-color: #777bb4; width: 90%; }
+.wordpress { background-color: #21759b; width: 75%; }
+.seo { background-color: #4caf50; width: 60%; }
+.photoshop { background-color: #31a8ff; width: 75%; }
+
