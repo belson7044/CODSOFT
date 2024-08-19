@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins&family=Rubik:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overall">
+        <input id="display" readonly>
+        <div id="flexing">
+            <div class="num">
+                <form>
+                    <button onclick="show('1')" type="button">1</button>
+                    <button onclick="show('2')" type="button">2</button>
+                    <button onclick="show('3')" type="button">3</button>
+                    <button onclick="show('4')" type="button">4</button>
+                    <button onclick="show('5')" type="button">5</button>
+                    <button onclick="show('6')" type="button">6</button>
+                    <button onclick="show('7')" type="button">7</button>
+                    <button onclick="show('8')" type="button">8</button>
+                    <button onclick="show('9')" type="button">9</button>
+                    <button onclick="show('0')" type="button">0</button>
+                    <button onclick="show('.')" type="button">.</button>
+                    <button onclick="result()" type="button">=</button>
+                    <button onclick="remove_all()" type="button">C</button>
+                    <button onclick="delete_it()" type="button">DE</button>
+                </form>
+            </div>
+            <div class="symbol">
+                <form>
+                    <button onclick="show('+')" type="button">+</button>
+                    <button onclick="show('-')" type="button">-</button>
+                    <button onclick="show('*')" type="button">x</button>
+                    <button onclick="show('/')" type="button">/</button>
+                    <button onclick="show('%')" type="button">%</button>
+                </form>
+            </div>
+        </div> 
+    </div>
+    <script src="script.js"> </script> 
+</body>
+</html>
